@@ -546,6 +546,7 @@ if __name__ == "__main__":
 
     # Create dataset from input images
     dataset_ = ImageDataset(option_.data_dir, 'test')
+    
 
     # Run pipeline
     run(dataset_, option_)
